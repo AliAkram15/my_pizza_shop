@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-attachment: scroll;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.mobile-menu {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.menu-item {
+    transition: all 0.3s ease;
+    backface-visibility: hidden;
+}
+
+
+.deal-card {
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+button,
+.whatsapp-btn {
+    transition: all 0.3s ease;
+    transform: translateZ(0);
+}
+
+
+input,
+select,
+textarea {
+    transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2);
+}
