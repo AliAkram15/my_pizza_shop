@@ -1,2 +1,2 @@
----
-title: The Oven - Sizzling Delights in Mian Channu 🍔🔥
+
+title: The Oven - Sizzling Delights in Mian Channu
